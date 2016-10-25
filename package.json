@@ -5,8 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build-css": "./build_css",
-    "watch": "./watch"
+    "watch": "./watch",
+    "start": "http-server dist/"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^3.10.1",
+    "pug": "^2.0.0-beta6"
+  }
 }
