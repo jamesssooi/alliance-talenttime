@@ -1,0 +1,12 @@
+{
+  "name": "talenttime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "./build_css",
+    "watch": "./watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
