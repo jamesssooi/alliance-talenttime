@@ -1,9 +1,256 @@
+// data
+- 
+    var talents = [
+        {
+            'name': 'Lara Li',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/1_lara.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352317701771759/',
+        },
+        {
+            'name': 'Hello Luqman',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/2_luqman.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352318278438368/',
+        },
+        {
+            'name': 'Choo Jian Tatt',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/3_choojiantat.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352318815104981/',
+        },
+        {
+            'name': 'Daniel Chin',
+            'type': 'Singing',
+            'thumb': '/img/thumbnails/4_danielchin.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352319955104867/',
+        },
+        {
+            'name': 'Zach Sia',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/5_zachsia.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352320781771451/',
+        },
+        {
+            'name': 'Shaun Yong',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/6_shaunyong.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352321891771340/',
+        },
+        {
+            'name': 'Nicole Joy',
+            'type': 'Singing',
+            'thumb': '/img/thumbnails/7_nicolejoy.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352323278437868/',
+        },
+        {
+            'name': 'Seaweed Lee',
+            'type': 'Piano',
+            'thumb': '/img/thumbnails/8_seaweed.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352327438437452/',
+        },
+        {
+            'name': 'Lee Wan Juin',
+            'type': 'Piano',
+            'thumb': '/img/thumbnails/9_leewanjuin.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352329255103937/',
+        },
+        {
+            'name': '[R][P][G]',
+            'type': 'Singing',
+            'thumb': '/img/thumbnails/10_rpg.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352329845103878/',
+        },
+        {
+            'name': 'Ace Crew',
+            'type': 'Dancing',
+            'thumb': '/img/thumbnails/11_acecrew.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352330171770512/',
+        },
+        {
+            'name': 'Raj Mahal X ASYRFNSIR',
+            'type': 'Original Music',
+            'thumb': '/img/thumbnails/12_rajmahal_x_ASYRFNSIR.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352330855103777/',
+        },
+        {
+            'name': 'Lakshmi',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/13_lakshmi.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352333358436860/',
+        },
+        {
+            'name': 'Jesah',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/14_jesus.jpeg',
+            'url': 'October 23 at 3:08pm',
+        },
+        {
+            'name': 'Daniel Has',
+            'type': 'Original Music',
+            'thumb': '/img/thumbnails/15_danielhas.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352334648436731/',
+        },
+        {
+            'name': 'The Shy Guy/Girl',
+            'type': 'Singing',
+            'thumb': '/img/thumbnails/16_theshyguygirl.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352335078436688/',
+        },
+        {
+            'name': 'Samantha Tan',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/17_samanthatan.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352335508436645/',
+        },
+        {
+            'name': 'Ayman',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/18_ayman.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352337678436428/',
+        },
+        {
+            'name': 'Zan Boon',
+            'type': 'Singing',
+            'thumb': '/img/thumbnails/19_tanzanboon.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352335961769933/',
+        },
+        {
+            'name': 'Cheryl & Drea',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/20_cheryl_n_drea.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352343061769223/',
+        },
+        {
+            'name': 'Rayyan & Illi',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/21_rayyan_n_illi.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352336628436533/',
+        },
+        {
+            'name': 'Chai Chiah Leung',
+            'type': 'Singing/Guitar',
+            'thumb': '/img/thumbnails/22_chaichiahleung.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352338725102990/',
+        },
+        {
+            'name': 'Adrian Foh',
+            'type': 'Singing',
+            'thumb': '/img/thumbnails/23_adrianfoh.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352388475098015/',
+        },
+        {
+            'name': 'Tein',
+            'type': 'Singing',
+            'thumb': '/img/thumbnails/24_lusiewtein.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352339585102904/',
+        },
+        {
+            'name': 'Flava Fanatix',
+            'type': 'Dancing',
+            'thumb': '/img/thumbnails/25_flava.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352340431769486/',
+        },
+        {
+            'name': 'Oscar Yip',
+            'type': 'Singing',
+            'thumb': '/img/thumbnails/26_oscar.jpeg',
+            'url': 'https://www.facebook.com/251526091850921/videos/352341278436068/',
+        }
+    ]
+
 doctype html
 html(lang=en)
     head
-        link(rel="stylesheet" href="/css/bootstrap.min.css")
-        link(rel="stylesheet" href="/css/styles.css")
+        // Meta Settigns
         title The Alliance Talentime Competition (Sunway)
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+
+        // Stylesheets
+        link(rel="stylesheet", href="/css/bootstrap.min.css")
+        link(rel="stylesheet", href="/css/styles.css")
+        link(rel="stylesheet", 
+             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
+        link(rel="stylesheet", 
+             href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900")
+        link(rel="stylesheet",
+             href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css")
+        link(rel="stylesheet", 
+             href="https://fonts.googleapis.com/css?family=Permanent+Marker")
+
+        // Javascript
+        script(src='js/wow.min.js')
+        script(src='js/smooth-scroll.min.js')
     body
-        div.container
-            h1 Hello World!
+        section.hero
+            div.hero-top
+                img.hero-title.wow.fadeInUp(
+                    src="/img/title.svg",
+                    alt="The Alliance Talentime Competition"
+                )
+                h1(style={'visibility': 'hidden'}) The Alliance Talent Time Competition
+            div.hero-bottom.wow.fadeInUp
+                //span.hero-counter 23:45:12
+                a.hero-button.hero-button-primary(href="#videos", data-scroll)
+                    i.fa.fa-play-circle
+                    | &nbsp;Watch the Videos
+                a.hero-button(href="#vote", data-scroll)
+                    i.fa.fa-thumbs-up
+                    | &nbsp;Vote now
+        section#videos.talents.container
+            h2 Videos
+            div.videoList.row.wow.fadeInUp
+                each talent in talents
+                    div.videoList-item.col-xs-12.col-sm-6.col-md-4
+                        a.videoList-itemInner(href=talent.url, target="_blank")
+                            div.videoList-img(
+                                style={'background-image': `url(${talent.thumb})`}
+                            ) &nbsp;
+                            div.videoList-body
+                                span.videoList-title= talent.name
+                                span.videoList-subtitle= talent.type
+        section#vote.vote-cta.container.wow.fadeInUp
+            h2 Vote Now
+            span.subText Only students from Taylor's, Monash and Sunway University may vote. Voting ends on 29th October, Saturday.
+            a.button(
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=4St8U9T8qUWDs2ZT6sxQcGkbwh2BFP5LgFExkoTCyVJUQjc3SEVXTllTVkUwT1pRTkdISUtBNVhDTi4u",
+                target="_blank"
+            ) For Sunway Students
+            a.button(
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfcy4Wp43MCb42T7S0swiN1OY0rRUJZjsOqXLZz2YOfpAYoPQ/viewform",
+                target="_blank"
+            ) For Taylor Students
+            a.button(
+                href="http://bit.ly/2eT51LE",
+                target="_blank"
+            ) For Monash Students
+        footer.container
+            div.row
+                div.col-xs-12.col-sm-4.col-md-3.col-md-offset-2.footer-centered
+                    span.footer-title Organised By
+                    a(
+                        href="https://www.facebook.com/The-Alliance-Coalition-of-Voices-251526091850921/"
+                    )
+                        img.footer-logo(src="/img/logo_alliance.svg", alt="The Alliance Logo")
+                div.col-xs-12.col-sm-8.col-md-5
+                    span.footer-title About The Alliance
+                    p
+                        | The Alliance was birthed out of the idea to provide all students with a united voice to create an impact together as one. It also strives to unify the students of all the Universities represented. This currently includes Taylor's University, Monash University, and also Sunway University.
+                    ul.list-unstyled.socialLinkList
+                        li.socialLinkList-item
+                            a(href="https://www.facebook.com/The-Alliance-Coalition-of-Voices-251526091850921/")
+                                i.fa.fa-facebook-square
+                                | &ensp;Facebook
+                        //- li.socialLinkList-item
+                        //-     a(href="#")
+                        //-         i.fa.fa-envelope-square
+                        //-         | &ensp;Email
+            div.row
+                div.col-xs-12.col-md-8.col-md-offset-2.footer-copyText
+                    hr
+                    | Website designed and developed by 
+                    a(href="https://www.facebook.com/ooiwengteik") James Ooi
+
+    script.
+        new WOW().init();
+        smoothScroll.init();

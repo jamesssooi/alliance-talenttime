@@ -1,0 +1,43 @@
+// base/_typography.scss
+
+body {
+    font-family: 'Roboto';
+}
+
+a {
+    color: inherit;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Permanent Marker', sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin: 15px 0 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.subText {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 45px;
+}
+
+h2 + .subText {
+    //margin-top: -30px;
+}

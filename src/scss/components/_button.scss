@@ -1,0 +1,29 @@
+// components/_button.scss
+
+.button {
+    display: block;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: $color-background;
+}
+
+@media screen and (min-width: 768px) {
+    .button {
+        display: inline-block;
+    }
+
+    .button + .button {
+        margin-left: 15px;
+    }
+}

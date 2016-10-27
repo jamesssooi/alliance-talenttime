@@ -6,11 +6,14 @@
   "scripts": {
     "build-css": "./build_css",
     "watch": "./watch",
-    "start": "http-server dist/"
+    "start": "http-server dist/",
+    "deploy": "./deploy"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bourbon": "^4.2.7",
+    "bourbon-neat": "^1.8.0",
     "node-sass": "^3.10.1",
     "pug": "^2.0.0-beta6"
   }

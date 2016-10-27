@@ -4,6 +4,24 @@
  * (C) 2016 James Ooi
  */
 
- .test {
-     width: percentage(1/2);
- }
+/* Libraries */
+@import 'bourbon';
+@import 'neat-helpers';
+@import 'neat';
+
+/* Base */
+@import 'base/reset';
+@import 'base/colors';
+@import 'base/typography';
+@import 'base/layout';
+
+/* Components */
+@import 'components/button';
+@import 'components/hero';
+@import 'components/videoList';
+@import 'components/footer';
+@import 'components/socialLinkList';
+
+/* Pages */
+@import 'pages/talents';
+@import 'pages/vote';

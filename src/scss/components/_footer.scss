@@ -1,0 +1,43 @@
+// components/_footer.scss
+
+footer {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.footer-centered {
+    text-align: center;
+}
+
+.footer-title {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+.footer-copyText {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        text-align: center;
+    }
+}

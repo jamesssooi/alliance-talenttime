@@ -1,1 +1,1 @@
-node-sass --include-path scss src/scss/main.scss dist/css/styles.css
+node-sass --include-path scss --include-path node_modules/bourbon-neat/app/assets/stylesheets/ --include-path node_modules/bourbon/app/assets/stylesheets/ src/scss/main.scss dist/css/styles.css

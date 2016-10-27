@@ -1,0 +1,63 @@
+// components/_videoList.scss
+
+.videoList-item {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.videoList-itemInner {
+    display: block;
+    background-color: yellow;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    @include transition(0.1s ease-in-out all);
+}
+
+.videoList-itemInner:hover {
+    position: relative;
+    transform: translateY(-10px);
+    color: $color-background;
+}
+
+.videoList-itemInner:hover .videoList-img:after {
+    color: yellow;
+    font-size: 62px;
+}
+
+.videoList-img {
+    width: 100%;
+    height: 200px;
+    background: url('https://unsplash.it/600/400');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.videoList-img:after {
+    content: '\f144';
+    font-family: 'FontAwesome';
+    font-size: 48px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    @include transform(translate(-50%, -50%));
+    @include transition(0.1s ease-in-out all);
+}
+
+.videoList-body {
+    padding: 15px;
+}
+
+.videoList-title {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.videoList-subtitle {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
